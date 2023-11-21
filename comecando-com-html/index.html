@@ -9,9 +9,14 @@
 </head>
 
 <body>
-    <strong><i>Meu Primeiro Html!</i></strong>
-    <input type="color">
-    <img src="https://static.wikia.nocookie.net/naruto/images/1/1f/Pose_Nice_Guy_%28Naruto%29.png/revision/latest?cb=20130520085132&path-prefix=pt-br">
+    <strong><i>Formulário de Cadastro</i></strong>
+    <form name="signup" onsubmit="alert('Enviei um formulário')" target="_blank" autocomplete="on"  method="post" action="tamiris.asilva@hotmail.com">
+       <label>Nome: <input type="text" name="name"><br></label>
+       <label>Idade: <input type="number" name="age"><br></label>
+       <label>Senha: <input type="password" name="password"><br></label>
+       <button type="submit">Enviar</button>
+
+    </form>
 
 </body>
 
