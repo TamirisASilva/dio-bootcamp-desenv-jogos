@@ -10,14 +10,49 @@
 </head>
 
 <body>
-    <strong><i>Formulário de Cadastro</i></strong>
-    <form name="signup" onsubmit="alert('Enviei um formulário')" target="_blank" autocomplete="on"  method="post" action="tamiris.asilva@hotmail.com">
-       <label>Nome: <input type="text" name="name"><br></label>
-       <label>Idade: <input type="number" name="age"><br></label>
-       <label>Senha: <input type="password" name="password"><br></label>
-       <button type="submit">Enviar</button>
-
-    </form>
+    <div><strong>Formulário de Cadastro</strong></div>
+    <form name="signup" onsubmit="alert('Enviei um formulário')" target="_blank" autocomplete="on"  method="get" action="tamiris.asilva@hotmail.com">
+    <div>
+        <fieldset>
+            <Legend>Dados Pessoais</Legend>
+        <label>Nome Completo: <input type="text" name="name"></label>
+        <label>Data de Nascimento: <input type="date" name="date"></label><br>
+        <label>Documento de Identidicação:<input type="number"></label>
+        <Label>Orgão Emissor: <select name="orgão emissor">
+            <option value="Detran">Detran</option>
+            <option value="IFP">IFP</option>
+        </select></Label>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <Legend>Informações de Contato</Legend>
+            <Label>Telefone: <input type="tel"></Label><br>
+            <Label>Email: <input type="email"></Label><br>
+            <Label>Perfil GitHub: <input type="url"></Label><br>
+            <Label>Perfil Facebook: <input type="url"></Label><br>
+            <Label>Perfil Linkedin: <input type="url"></Label><br>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <Legend>Estamos Quase Lá</Legend>
+            <Label>Possui experiência Profissional como Dev?</Label><br>
+            <input type="radio" name="expp" value="sim"> Sim<br>
+            <input type="radio" name="expp" value="nao"> Não<p>
+            <Label>Como Nós Encontrou?</Label><br>
+            <input type="checkbox" name="achou[]" value="google"> Google<br>
+            <input type="checkbox" name="achou[]" value="facebook"> Facebook<br>
+            <input type="checkbox" name="achou[]" value="linkedin"> Google<br>
+            <input type="checkbox" name="achou[]" value="youtube"> Youtube<p>
+            <Label>Fale Sobre Você:</Label><br>
+            <textarea name="sobrevoce" id="sv" cols="50" rows="10"></textarea>
+        </fieldset>
+    </div>
+    <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </div>
 
 </body>
 
