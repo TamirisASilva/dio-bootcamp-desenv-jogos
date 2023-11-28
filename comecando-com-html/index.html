@@ -11,12 +11,12 @@
 </head>
 
 <body>
-    <div><strong>Formulário de Cadastro</strong></div>
+    <h1><div><strong>Formulário de Cadastro</strong></div></h1>
     <form name="signup" onsubmit="alert('Enviei um formulário')" target="_blank" autocomplete="on"  method="get" action="tamiris.asilva@hotmail.com">
     <div>
         <fieldset>
             <Legend>Dados Pessoais</Legend>
-        <label>Nome Completo: <input type="text" name="name"></label>
+        <label>Nome Completo: <input type="text" name="name" style="width: 50%"></label><br>
         <label>Data de Nascimento: <input type="date" name="date"></label><br>
         <label>Documento de Identidicação:<input type="number"></label>
         <Label>Orgão Emissor: <select name="orgão emissor">
@@ -29,10 +29,10 @@
         <fieldset>
             <Legend>Informações de Contato</Legend>
             <Label>Telefone: <input type="tel"></Label><br>
-            <Label>Email: <input type="email"></Label><br>
-            <Label>Perfil GitHub: <input type="url"></Label><br>
-            <Label>Perfil Facebook: <input type="url"></Label><br>
-            <Label>Perfil Linkedin: <input type="url"></Label><br>
+            <Label>Email: <input type="email" style="width: 50%"></Label><br>
+            <Label>Perfil GitHub: <input type="url" style="width: 50%"></Label><br>
+            <Label>Perfil Facebook: <input type="url" style="width: 50%"></Label><br>
+            <Label>Perfil Linkedin: <input type="url" style="width: 50%"></Label><br>
         </fieldset>
     </div>
     <div>
@@ -51,7 +51,7 @@
         </fieldset>
     </div>
     <fieldset>
-        <div>
+        <div class="botao-centro">
         <button type="submit">Enviar</button>
         <button type="reset">Limpar</button>
     </div>
