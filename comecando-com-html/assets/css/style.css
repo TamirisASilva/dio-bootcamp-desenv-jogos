@@ -1,18 +1,20 @@
 *{
     margin: 2px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: blue;
-    color: aliceblue;
+    background-color: #A9D9D0;
+    color: black;
     
 }
 h1{
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 fieldset{
     width: 290px;
     width: 50%; margin: 0px auto;
     border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px black;
 }
 .botao-centro{
     width: 25%; margin: 0px auto;
@@ -21,6 +23,8 @@ fieldset{
 input, textarea{
     border-radius: 10px;
     background-color: aliceblue;
+    box-shadow: 1px 1px 1px 1px black;
+    color: black
 }
 legend{
     text-align: center;
