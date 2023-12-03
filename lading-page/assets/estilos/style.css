@@ -1,32 +1,23 @@
+@font-face {
+    font-family: novamono;
+    src: url("../fonts/NovaMono-Regular.ttf");
+   }
+@font-face {
+    font-family: lobster;
+    src: url("../fonts/Lobster-Regular.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
 
-#circulo{
-    margin: auto;
-    width: 300px;
-    height: 300px;
-    background-color:blue;
-    border-style: outset;
-    border-width: 10px;
-    border-color: black yellow red purple;
-    border-radius: 50%;
-}
-#retangulo{
-    margin: auto;
-    width: 300px;
-    height: 150px;
-    background-color: blueviolet;
-    border: 5px solid;
-    border-image-source: url(../imagens/Naruto-do-Fortnite-e1637067613353.jpg);
-    border-image-slice: 1;
 
-}
-#quadrado{
-    margin: auto;
-    width: 300px;
-    height: 300px;
-    background-color: indigo;
-    border: 10px outset;
-    border-image-source: linear-gradient(red, blue);
-    border-image-slice: 30;
-    border-width: 10px;
-    border-image-outset: 10px 30px;
-}
+p{
+    font-family: novamono;
+    font-stretch: condensed;
+   }
+li{
+    font-family: lobster;
+   }
+#testefont{
+    font-family: 'Gasoek One', sans-serif;
+    font-stretch: semi-condensed;
+   }
