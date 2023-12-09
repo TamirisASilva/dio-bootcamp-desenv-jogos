@@ -20,4 +20,11 @@ li{
 #testefont{
     font-family: 'Gasoek One', sans-serif;
     font-stretch: semi-condensed;
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 10px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    
    }
+   
