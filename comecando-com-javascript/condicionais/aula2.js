@@ -6,7 +6,7 @@ console.log(minhaBlusaAzul);
 console.log(meuShortBranco);
 
 // Descobrindo se um numero é par
-const numero = 25;
+const numero = 30;
 const numeroPar = (numero % 2) === 0;
 
 // Estrutura Condicional
