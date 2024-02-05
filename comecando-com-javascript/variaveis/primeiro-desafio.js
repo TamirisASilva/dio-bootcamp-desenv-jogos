@@ -6,3 +6,5 @@ const litrosConsumidos = distaciaViagem / consumoMedio;
 const valorViagem = litrosConsumidos * precoGasolina;
 
 console.log(valorViagem.toFixed(2)); //tofixed limita as casas decimais
+
+
